@@ -1,0 +1,25 @@
+#cookie{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 35%;
+    left: 120px;
+}
+#cookies{
+    left: 100px;
+    position: absolute;
+}
+#header1{
+    height: 50px;
+}
+#vr{
+    border-left: 6px solid black;
+    height: 500px;
+    left: 50%;
+    position: absolute;
+}
+#grandma{
+    left: 60%;
+    position: absolute;
+    height: 70px;
+}

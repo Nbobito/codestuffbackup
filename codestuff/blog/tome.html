@@ -1,0 +1,23 @@
+<html>
+
+<head>
+
+</head>
+
+<body bgcolor=#0f20ff>
+    <h1 align="center" id="time">
+        <!--curent time displayed here-->
+
+    </h1>
+</body>
+<script>
+    var main = document.getElementById("main");
+    var ti = document.getElementById("time");
+    //declares html vars into js.
+    setInterval(current, 1);
+    function current() {
+        var d = new Date();
+        ti.innerText = d;
+    }
+    //current date display function
+</script>
